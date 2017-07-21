@@ -2,17 +2,17 @@
 <root>
 	<item id="Title"><![CDATA[Discuz! Style]]></item>
 	<item id="Version"><![CDATA[X3,X3.1,X3.2]]></item>
-	<item id="Time"><![CDATA[2015-10-25 02:31]]></item>
-	<item id="From"><![CDATA[克米设计 (http://www.comiis.com/)]]></item>
+	<item id="Time"><![CDATA[2017-07-21 13:32]]></item>
+	<item id="From"><![CDATA[你要28网 (http://www.ni1.cc/)]]></item>
 	<item id="Data">
 		<item id="styleid"><![CDATA[10]]></item>
-		<item id="name"><![CDATA[克米设计-努比亚社区]]></item>
+		<item id="name"><![CDATA[你要28网-幸运28交流预测社区]]></item>
 		<item id="available"><![CDATA[1]]></item>
 		<item id="templateid"><![CDATA[8]]></item>
 		<item id="extstyle"><![CDATA[|]]></item>
-		<item id="tplname"><![CDATA[克米设计-努比亚社区]]></item>
+		<item id="tplname"><![CDATA[你要28网-幸运28交流预测社区]]></item>
 		<item id="directory"><![CDATA[./template/comiis_nby]]></item>
-		<item id="copyright"><![CDATA[克米设计 http://www.comiis.com]]></item>
+		<item id="copyright"><![CDATA[你要28网 http://www.ni1.cc]]></item>
 		<item id="style">
 			<item id="titlebgcolor"><![CDATA[#eee titlebg.png repeat-x 0 0]]></item>
 			<item id="menuhoverbgcolor"><![CDATA[ nv_a.png repeat-x 50% -50px]]></item>

@@ -443,7 +443,7 @@ $data = array (
     'nocacheheaders' => '0',
     'oltimespan' => '10',
     'onlinehold' => 900,
-    'onlinerecord' => '1	1500612951',
+    'onlinerecord' => '2	1500615258',
     'pollforumid' => '0',
     'postbanperiods' => '',
     'postmodperiods' => '',
@@ -4355,19 +4355,19 @@ j/n/Y',
       array (
         0 => 
         array (
-          'left' => '{ESh5PXzO}
-{uOWwW1d3}
-{ohkw334d}
-{mO1KWDkZ}
-{vXONQ39z}
-{AsoN52Oq}
+          'left' => '{ZMKx53K4}
+{Z80ozJ79}
+{cSqbkavh}
+{F3ClLqsB}
+{t3F9df1v}
+{Onx1UH1V}
 <dl class="pil cl">
-	<dt>{HKDhWpKH}</dt><dd>{M3wOqOO1}</dd>
+	<dt>{MTnUHxFc}</dt><dd>{IAqqOFhb}</dd>
 </dl>
-{UyoPNosc}
-<dl class="pil cl">{M9912nfp}</dl>',
+{kHSqCL2T}
+<dl class="pil cl">{L2qLqlhu}</dl>',
           'top' => '<dl class="cl">
-<dt>{S3y9S53F}</dt><dd>{d8OdFqnn}</dd>
+<dt>{Dx1qLL9T}</dt><dd>{eWcfQLdz}</dd>
 </dl>',
         ),
       ),
@@ -4377,70 +4377,70 @@ j/n/Y',
         array (
           'left' => 
           array (
-            '{ESh5PXzO}' => 
+            '{ZMKx53K4}' => 
             array (
               0 => 'numbercard',
               1 => '',
               2 => '',
               3 => '',
             ),
-            '{uOWwW1d3}' => 
+            '{Z80ozJ79}' => 
             array (
               0 => 'groupicon',
               1 => '<p>',
               2 => '</p>',
               3 => '',
             ),
-            '{ohkw334d}' => 
+            '{cSqbkavh}' => 
             array (
               0 => 'authortitle',
               1 => '<p><em>',
               2 => '</em></p>',
               3 => '',
             ),
-            '{mO1KWDkZ}' => 
+            '{F3ClLqsB}' => 
             array (
               0 => 'customstatus',
               1 => '<p class="xg1">',
               2 => '</p>',
               3 => '',
             ),
-            '{vXONQ39z}' => 
+            '{t3F9df1v}' => 
             array (
               0 => 'star',
               1 => '<p>',
               2 => '</p>',
               3 => '',
             ),
-            '{AsoN52Oq}' => 
+            '{Onx1UH1V}' => 
             array (
               0 => 'upgradeprogress',
               1 => '<p>',
               2 => '</p>',
               3 => '',
             ),
-            '{HKDhWpKH}' => 
+            '{MTnUHxFc}' => 
             array (
               0 => 'baseinfo',
               1 => '',
               2 => '',
               3 => 'credits,1',
             ),
-            '{M3wOqOO1}' => 
+            '{IAqqOFhb}' => 
             array (
               0 => 'baseinfo',
               1 => '',
               2 => '',
               3 => 'credits,0',
             ),
-            '{UyoPNosc}' => 
+            '{kHSqCL2T}' => 
             array (
               0 => 'medal',
               1 => '<p class="md_ctrl">',
               2 => '</p>',
               3 => '',
             ),
-            '{M9912nfp}' => 
+            '{L2qLqlhu}' => 
             array (
               0 => 'baseinfo',
               1 => '',
@@ -4450,14 +4450,14 @@ j/n/Y',
           ),
           'top' => 
           array (
-            '{S3y9S53F}' => 
+            '{Dx1qLL9T}' => 
             array (
               0 => 'baseinfo',
               1 => '',
               2 => '',
               3 => 'credits,1',
             ),
-            '{d8OdFqnn}' => 
+            '{eWcfQLdz}' => 
             array (
               0 => 'baseinfo',
               1 => '',
@@ -4482,10 +4482,10 @@ j/n/Y',
     'csspath' => 'data/cache/style_',
     'reginput' => 
     array (
-      'username' => 'wXhK8G',
-      'password' => 'AZdmXM',
-      'password2' => 'psVxmZ',
-      'email' => 'fXXUiV',
+      'username' => 'tJbT80',
+      'password' => 'k9t00Z',
+      'password2' => 'Ur0QQR',
+      'email' => 'L90Vab',
     ),
     'output' => 
     array (

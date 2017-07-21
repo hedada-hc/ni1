@@ -40,41 +40,38 @@ var focusautoshow = window.setInterval('showfocus(\'next\', 1);', 5000);
 <div class="comiis_kmzxk" style="clear:both;"></div>
 <?php if($comiis_ff==1) { ?>
 <div class="comiis_dibox cl">
-<div id="ft" class="wp comiis_foot cl hytj">
-<dl>
-<dt>关于我们</dt>
-<dd><a href="#" target="_blank">关于我们</a></dd>
-<dd><a href="#" target="_blank">友情链接</a></dd>
-<dd><a href="#" target="_blank">联系我们</a></dd>
-</dl>
-<dl>
+<!-- <div id="ft" class="wp comiis_foot cl hytj"> -->
+<!-- <dl>
+<dt>友情链接</dt>
+<dd><a href="#" target="_blank">聚享游</a></dd>
+</dl> -->
+<!-- <dl>
 <dt>帮助中心</dt>
 <dd><a href="#" target="_blank">网友中心</a></dd>
 <dd><a href="#" target="_blank">购买须知</a></dd>
 <dd><a href="#" target="_blank">支付方式</a></dd>
-</dl>
-<dl>
+</dl> -->
+<!-- 		<dl>
 <dt>服务支持</dt>
 <dd><a href="#" target="_blank">资源下载</a></dd>
 <dd><a href="#" target="_blank">售后服务</a></dd>
 <dd><a href="#" target="_blank">定制流程</a></dd>
-</dl>	
-<dl>
+</dl>	 -->
+<!-- <dl>
 <dt>关注我们</dt>
 <dd><a href="#" target="_blank" class="kmweibo">官方微博</a></dd>
 <dd><a href="#" target="_blank" class="kmkongjian">官方空间</a></dd>
 <dd><a href="#" target="_blank" class="kmweixin">官方微信</a></dd>
-</dl>
-<div class="comiis_tel">
+</dl> -->
+<!-- 	<div class="comiis_tel">
 <ul>
-<li class="item1">400-800-8888</li>
-<li class="item2">周一到周日 8:30-20:30 (全年无休)</li>
+<li class="item1">商务合作:13080671541</li>
 <li class="item3 cl">
-<a href="#" target="_blank">7 x 24小时在线客服</a>
+<a href="#" target="_blank">13080671541</a>
 </li>
 </ul> 
-</div> 
-</div>
+</div>  -->
+<!-- </div> -->
 <div class="comiis_dilogo wp cl">
 <div class="comiis_minilogo"><a href="./"><img src="<?php echo IMGDIR;?>/comiis_minilogo.gif" alt="<?php echo $_G['setting']['sitename'];?>"></a></div>
 <div class="comiis_dinav"><?php if(is_array($_G['setting']['footernavs'])) foreach($_G['setting']['footernavs'] as $nav) { if($nav['available'] && ($nav['type'] && (!$nav['level'] || ($nav['level'] == 1 && $_G['uid']) || ($nav['level'] == 2 && $_G['adminid'] > 0) || ($nav['level'] == 3 && $_G['adminid'] == 1)) || !$nav['type'] && ($nav['id'] == 'stat' && $_G['group']['allowstatdata'] || $nav['id'] == 'report' && $_G['uid'] || $nav['id'] == 'archiver' || $nav['id'] == 'mobile' || $nav['id'] == 'darkroom'))) { ?><?php echo $nav['code'];?><?php } } ?>
@@ -84,7 +81,7 @@ var focusautoshow = window.setInterval('showfocus(\'next\', 1);', 5000);
 <div class="wp comiis_copyright cl">
 <a href="#" target="_blank"><img src="<?php echo IMGDIR;?>/comiis_diico01.gif" alt="诚信网站"></a>
 <a href="#" target="_blank"><img src="<?php echo IMGDIR;?>/comiis_diico02.gif" alt="可信网站"></a>
-Powered by <a href="http://www.discuz.net" target="_blank">Discuz!</a> <?php echo $_G['setting']['version'];?> &copy; 2008-2015 <a href="<?php echo $_G['setting']['siteurl'];?>" rel="nofollow" target="_blank"><?php echo $_G['setting']['sitename'];?></a> 版权所有 <?php if($_G['setting']['icp']) { ?><a href="http://www.miitbeian.gov.cn/" target="_blank"><?php echo $_G['setting']['icp'];?></a><?php } ?> <?php if($_G['setting']['site_qq']) { ?><a href="http://wpa.qq.com/msgrd?V=3&amp;uin=<?php echo $_G['setting']['site_qq'];?>&amp;Site=<?php echo $_G['setting']['bbname'];?>&amp;Menu=yes&amp;from=discuz" target="_blank" title="QQ">客服QQ: <?php echo $_G['setting']['site_qq'];?></a><?php } ?>
+Powered by <a href="http://www.discuz.net" target="_blank">Discuz!</a> <?php echo $_G['setting']['version'];?> &copy; 2015-2017 <a href="<?php echo $_G['setting']['siteurl'];?>" rel="nofollow" target="_blank"><?php echo $_G['setting']['sitename'];?></a> 版权所有 <?php if($_G['setting']['icp']) { ?><a href="http://www.miitbeian.gov.cn/" target="_blank"><?php echo $_G['setting']['icp'];?></a><?php } ?> <?php if($_G['setting']['site_qq']) { ?><a href="http://wpa.qq.com/msgrd?V=3&amp;uin=<?php echo $_G['setting']['site_qq'];?>&amp;Site=<?php echo $_G['setting']['bbname'];?>&amp;Menu=yes&amp;from=discuz" target="_blank" title="QQ">客服QQ: <?php echo $_G['setting']['site_qq'];?></a><?php } ?>
 <!---*感谢你对克米设计的支持, 为获得更多克米设计的技术支持和服务, 建议保留下面克米设计的版权连接，谢谢!*--->
 &nbsp;技术支持: <A href="http://www.comiis.com" target="_blank" rel="nofollow" title="克米设计-商业技术认证客户">克米设计</A>	<?php if(!empty($_G['setting']['pluginhooks']['global_footerlink'])) echo $_G['setting']['pluginhooks']['global_footerlink'];?>
 </div>
@@ -109,8 +106,8 @@ GMT<?php echo $_G['timenow']['offset'];?>, <?php echo $_G['timenow']['time'];?>
 </p>
 </div>
 <div id="frt">
-<p>Powered by <strong><a href="http://www.discuz.net" target="_blank">Discuz!</a></strong> <em><?php echo $_G['setting']['version'];?></em><?php if(!empty($_G['setting']['boardlicensed'])) { ?> <a href="http://license.comsenz.com/?pid=1&amp;host=<?php echo $_SERVER['HTTP_HOST'];?>" target="_blank">Licensed</a><?php } ?></p>
-<p class="xs0">Copyright &copy; 2008-2015 Design: <a href="http://www.comiis.com" target="_blank" rel="nofollow" title="克米设计">Comiis.Com</a></p>
+<p>Powered by <strong><a href="http://www.discuz.net" target="_blank">Discuz!</a></strong> <em><?php echo $_G['setting']['version'];?></em><?php if(!empty($_G['setting']['boardlicensed'])) { ?> <a href="http://www.ni1.cc/?pid=1&amp;host=<?php echo $_SERVER['HTTP_HOST'];?>" target="_blank">Licensed</a><?php } ?></p>
+<p class="xs0">Copyright &copy; 2015-2017 Design: <a href="http://www.ni1.cc" target="_blank" rel="nofollow" title="克米设计">Comiis.Com</a></p>
 </div>
 </div>
 <?php } updatesession();?><?php if($_G['uid'] && $_G['group']['allowinvisible']) { ?>

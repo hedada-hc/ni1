@@ -1,6 +1,6 @@
 <?php if(!defined('IN_DISCUZ')) exit('Access Denied'); hookscriptoutput('discuz');
 0
-|| checktplrefresh('./template/comiis_nby/forum/discuz.htm', './template/comiis_nby/common/comiis_navss.htm', 1500613228, 'diy', './data/template/2_diy_forum_discuz.tpl.php', './template/comiis_nby', 'forum/discuz')
+|| checktplrefresh('./template/comiis_nby/forum/discuz.htm', './template/comiis_nby/common/comiis_navss.htm', 1500615652, 'diy', './data/template/2_diy_forum_discuz.tpl.php', './template/comiis_nby', 'forum/discuz')
 ;?><?php include template('common/header'); ?><div id="pt" class="bm cl">
 <div class="y">
 <?php if(!empty($_G['setting']['pluginhooks']['index_nav_extra'])) echo $_G['setting']['pluginhooks']['index_nav_extra'];?>

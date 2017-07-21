@@ -44,7 +44,7 @@ $comiis_view_tit_avt = 1; //帖子内容页楼主头像设置, 0为关闭, 1为�
 
 $comiis_view_tit_tx = 1; //帖子内容页楼层头像设置, 0为关闭, 1为显示;
 
-$comiis_view_tit_lz = 0; //帖子内容页是否显示楼主图标, 0为关闭, 1为显示;
+$comiis_view_tit_lz = 1; //帖子内容页是否显示楼主图标, 0为关闭, 1为显示;
 
 $comiis_view_tit_zuico = 0; //帖子内容页楼层用户组图标设置, 0为关闭, 1为显示;
 
